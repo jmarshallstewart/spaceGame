@@ -186,6 +186,7 @@ DrawImage(reference imageAsset, int x, int y, optional float angle,
 DrawImageFrame(reference imageAsset, int x, int y, int frameWidth, 
     int frameHeight, int frameIndex, optional float angle, optional float scale,
     optional byte r, optional byte g, optional byte b)
+    
     imageAsset: a reference to an asset loaded via LoadImage(). For
     DrawImageFrame(), this is assumed to be a tile atlas in which multiple
     frames of animation (all uniform in size) are laid out left to right in a
